@@ -1,0 +1,186 @@
+
+
+body {
+    margin: 0px;
+    font-family: 'Roboto';
+    background-color: #e3d8b9;
+}
+
+.banner {
+    margin: 0px;
+    border: none;
+}
+
+.banner img {
+    display: block;
+}
+
+nav {
+    text-align: center;
+    background-color: #d78e10;
+    border: none;
+    margin: 0px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    background-color: #000000;
+    margin-top: 0px;
+    padding: 25px;
+}
+
+h2 {
+    text-align: center;
+    /* margin-left: 30px; */
+    color: #000000;
+    padding: 15px 15px;
+    font-size: 27px;
+    background-color: #d78e10;
+    width: 150px;
+    border-radius: 15px;
+    font-weight: 900;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img-esquerda {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+p {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* COLETAVEIS ABAIXO */
+
+h3 {
+    font-size: 25px;
+    text-align: center;
+    color: #000000;
+}
+
+.quadro {
+    background-color: #d78e10;
+    width: 520px;
+    display: inline-block;
+    margin: 30px;
+    border-color: #335f3f;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 30px;
+    vertical-align: top;
+}
+
+.quadro img {
+    width: 80%;
+}
+
+.centro {
+    text-align: center;
+}
+
+
+
+
+
+
+
+footer {
+    background-color: #d78e10;
+    font-size: 20px;
+    text-align: center;
+}
+
+.rodape {
+    text-decoration: none;
+    display: inline-block;
+    margin: 30px 10px 30px 10px;
+    vertical-align: middle;
+}
+
+#top {
+    position: fixed;
+    bottom: 20px; /* Distância da parte inferior da tela */
+    right: 20px; /* Distância da parte direita da tela */
+    width: 100px; /* Largura da imagem */
+    height: auto; /* Altura da imagem (ajustada automaticamente) */
+    z-index: 9999;
+}
+
+/* CSS DO DETONADO EM VIDEO ABAIXO */
+
+.lista-videos {
+    list-style: none;
+    padding: 0;
+    width: 600px;
+    margin: 20px auto;
+}
+
+.lista-videos li {
+    margin-bottom: 10px;
+    border: 3px solid #335f3f;
+    padding: 10px;
+    background-color: #d78e10;
+    border-radius: 10px;
+}
+
+.titulo-video {
+    cursor: pointer;
+    color: #000000;
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+.video-container {
+    display: none;
+    margin-top: 10px;
+}
+
+iframe {
+  width: 100%;
+}
+
+#detonadotxt h2 {
+    text-align: center;
+    color: #000000;
+    padding: 15px 25px;
+    font-size: 20px;
+    background-color: #d78e10;
+    width: fit-content;
+    border-radius: 15px;
+    font-weight: 900;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#detonadotxt p {
+    text-align: center;
+    margin: auto 350px auto 350px;
+    line-height: 1.6;
+}
